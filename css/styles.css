@@ -1,0 +1,205 @@
+:root {
+    --primary-font:'Roboto',sans-serif;
+    --secondary-font:'Raleway',sans-serif;
+    --accent-color: #2196F3;
+    --primary-font-size:14px;
+    --primary-font-weight:400;
+    --primary-text-color: #212121;
+    --primary-letter-spacing: 0.03em;
+    --secondary-text-colot:#757575;
+
+}
+.list {
+    list-style: none;
+}
+
+.link,
+.logo {
+    text-decoration: none;
+}
+.for-seo {
+    opacity:0;
+}
+
+body {
+    font-family: var(--primary-font);
+    font-size: var(--primery-font-size);
+    letter-spacing: 0.03em;
+}
+/*=================================COMPONENTS===============================*/
+.benefits-title {
+    font-weight: 700;
+    line-height: 1.14;
+    text-transform: uppercase;
+
+    color:var(--primary-text-color);
+}
+
+.benefits-description {
+    font-weight:var(--primery-font-weight);
+    line-height: 1.7;
+    /* or 171% */
+    color: var(--secondary-text-colot);
+}
+
+.portfolio-deskription {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.9;
+        /* identical to box height, or 188% */
+    
+        letter-spacing: 0.03em;
+    
+        color: var(--secondary-text-colot);
+}
+
+.second-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+
+    color: var(--primary-text-color);
+}
+
+.portfolio-title {
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 2;
+        /* identical to box height, or 200% */
+        letter-spacing: 0.06em;
+        color: var(--primary-text-color)
+}
+
+.our-workers {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    /* identical to box height */
+       color: var(--primary-text-color);
+}
+
+.position {
+    font-weight: var(--primery-font-weight);
+    font-size: 16px;
+    line-height: 1.19;
+    /* identical to box height */
+    color: var(--secondary-text-colot);
+}
+/*=================================/COMPONENTS===============================*/
+
+.logo {
+font-family: var(--secondary-font);
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    /* identical to box height */
+    color: #000000;
+}
+
+.half-logo {
+color: var(--accent-color);
+}
+/*=================================HEADER===============================*/
+.menu-link {
+    font-weight: 500;
+    line-height: 1.14px;
+    letter-spacing: 0.02em;
+    color: var(--primary-text-color);
+}
+
+.menu-link:hover,
+.menu-link:focus {
+    color: var(--accent-color);
+}
+
+.contact {
+    font-weight: 500;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--secondary-text-colot);
+}
+
+.contact:hover,
+.contact:focus,
+.footer-contact:hover,
+.footer-contact:focus,
+.adress:hover,
+.adress:focus{
+    color: var(--accent-color);
+}
+/*================================/HEADER===============================*/
+
+
+.modal-btn {
+    font-family: var(--primary-font);
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 1.88;
+        cursor: pointer;
+        /* identical to box height, or 188% */
+        letter-spacing: 0.06em;
+    
+        color: #FFFFFF;
+        background: var(--accent-color);
+}
+.modal-btn:hover,
+.modal-btn:focus,
+.portfolio-btn:hover,
+.portfolio-btn:focus{
+   background-color:  var(--accent-color);
+color: #FFFFFF;
+}
+
+.portfolio-btn {
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.63;
+cursor: pointer;
+/* identical to box height, or 162% */
+color: var(--primary-text-color)
+}
+
+.main-title {
+        font-weight: 900;
+        font-size: 44px;
+        line-height: 1.36x;
+        /* or 136% */
+    
+        text-align: center;
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
+    
+      color: #FFFFFF;
+}
+
+
+
+.adress {
+    font-style: normal;
+    font-weight: var(--primery-font-weight);
+    line-height: 1.7;
+    /* or 171% */
+    color: #FFFFFF;
+}
+
+.footer-contact {
+        font-style: normal;
+        font-weight: var(--primery-font-weight);
+        line-height: 1.7;
+        /* or 171% */
+          color: rgba(255, 255, 255, 0.6);
+}
+
+.section-our-team {
+    background: #F5F4FA;
+}
+
+.background-theme {
+    background: #2F303A;
+}
+ .second-half-logo {
+    color: #FFFFFF;
+ }
