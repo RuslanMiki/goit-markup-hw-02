@@ -10,6 +10,25 @@
     --third-text-color:#FFFFFF;
 }
 
+h1, h2, h3, h4, p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+ul, ol {
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+}
+
+img {
+    display: block;
+}
+
+.menu-item .current {
+color: var(--accent-color);
+}
+
 .list {
     list-style: none;
 }
@@ -24,9 +43,57 @@
 
 body {
     font-family: var(--primary-font);
-    font-size: var(--primery-font-size);
+    font-size: var(--primary-font-size);
     letter-spacing: 0.03em;
+    color: var(--secondary-text-color)
 }
+
+.section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+.container {
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    
+}
+
+
+.pref-list {
+    display: flex;
+    gap: 30px;
+}
+
+.employees-title {
+    margin-bottom: 50px;
+    
+}
+
+.employees {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.employees-card {
+    flex-basis: calc(100%-90px)/4;
+}
+
+.employees-card-content-wrapper {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background: #FFFFFF;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+}
+
+
+
+
 /*=================================COMPONENTS===============================*/
 
 .benefits-title {
@@ -40,14 +107,12 @@ body {
 .benefits-description {
     font-weight:var(--primery-font-weight);
     line-height: 1.7;
-    color: var(--secondary-text-color);
 }
 
 .portfolio-deskription {
     font-size: 16px;
     line-height: 1.9;
     letter-spacing: 0.03em;
-    color: var(--secondary-text-color);
 }
 
 .second-title {
@@ -56,6 +121,9 @@ body {
     line-height: 1.17;
     text-align: center;
     color: var(--primary-text-color);
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .portfolio-title {
@@ -71,13 +139,14 @@ body {
     font-size: 16px;
     line-height: 1.19;
     color: var(--primary-text-color);
+
+    margin-bottom: 10px;
 }
 
 .position {
     font-weight: var(--primery-font-weight);
     font-size: 16px;
     line-height: 1.19;
-    color: var(--secondary-text-color);
 }
 /*=================================/COMPONENTS===============================*/
 
@@ -90,9 +159,71 @@ body {
 }
 
 .half-logo {
-    color: var(--primary-text-color);
+    color: var(--primary-text-color)
 }
 /*=================================HEADER===============================*/
+
+.page-header-container {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+}
+
+.page-nav {
+    display: flex;
+    align-items: center;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+}
+
+.menu-item:not(:last-child) {
+    margin-right: 40px;
+}
+
+.phone-mail-kontakt {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+}
+
+.mail-header {
+    margin-right: 50px;
+}
+
+.page-header {
+    padding-top: 24px;
+    padding-bottom: 25px;
+}
+
+.hero {
+    padding-top: 200px;
+    padding-bottom: 200px;
+    text-align: center;
+    width: 1600px;
+
+}
+
+
+.logo {
+    margin-right: 93px;
+}
+
+.logo-footer {
+    display: inline-block;
+    margin-top: 60px;
+    margin-left: 215px;
+    margin-bottom: 20px;
+}
+
+.container-footer {
+    display: inline-block;
+    margin-top: 60px;
+    
+}
 
 .menu-link {
     font-weight: 500;
@@ -110,7 +241,7 @@ body {
     font-weight: 500;
     line-height: 1.14;
     letter-spacing: 0.02em;
-    color: var(--secondary-text-color);
+    color: var(--secondary-text-color); /*не наслідується*/
 }
 
 .contact:hover,
@@ -132,6 +263,14 @@ body {
     letter-spacing: 0.06em;
     color: var(--third-text-color);
     background: var(--accent-color);
+    
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 30px;
+    padding-right: 30px;
+
+    border: none;
+    border-radius: 4px;
 }
 
 .modal-btn:hover,
@@ -161,6 +300,14 @@ body {
     letter-spacing: 0.06em;
     text-transform: uppercase;
     color: var(--third-text-color);
+    
+    
+    width:696px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 30px;
+    
+    
 }
 
 .adress {
